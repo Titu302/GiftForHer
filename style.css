@@ -1,0 +1,61 @@
+	h1 {text-align: center;}
+	.picture-section { text-align: center;}
+	.picture-section img { 
+		max-width: 50%; 
+		height: auto; 
+		border-radius: 10px; 
+		box-shadow: 0, 2px, 4px, rgba(0, 0, 0, 0.1);
+		filter: grayscale(100%);
+}
+
+	.imgAnim {
+		animation: fadeIn 4s ease-in;
+	}
+
+	@keyframes fadeIn { 
+		from {  
+		  opacity: 0; 
+		} 
+		to { 
+		  opacity: 1; 
+		} 
+	}
+
+
+	.bdy {
+		font-family: 'Sacramento', cursive; 
+		font-size: 24px; 
+		color: darkblue;
+		text-align: center;
+	}
+
+		.vdo { 
+			border: 2px solid #f00; 
+			border-radius: 10px; 
+			box-shadow: 2px, 2px, 5px, rgba(0, 0, 0, 0.2); 
+			max-width: 100%;
+			display: block; 
+			margin: 0 auto;
+		 }
+
+	.gif-container {
+		text-align: left;
+	}
+
+	.imgClass {
+		width: 100px;
+		}
+
+
+
+	.gif2 img{
+       	 	display: block; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 50%; 
+	}
+		
+
+
+
+
